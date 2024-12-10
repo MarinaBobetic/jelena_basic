@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="actor, actress, performer, drama teacher, Scotland, Europe, drama classes, physical theatre ">
+    <title>Jelena Bašić actress performer educator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div id="gallery_wrapper">
+        <nav>
+            <ul class="sidebar">
+                <li class="sidebar-button" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="work.html">work</a></li>
+                <li><a href="reel.html">reel</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="classes.html">classes</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li>
+                <li class="hideOnMobile"><a href="about.html">about</a></li>
+                <li class="hideOnMobile"><a href="work.html">work</a></li>
+                <li class="hideOnMobile"><a href="reel.html">reel</a></li>
+                <li class="hideOnMobile"><a href="gallery.html" class="active_link">gallery</a></li>
+                <li class="hideOnMobile"><a href="classes.html">classes</a></li>
+                <li class="hideOnMobile"><a href="contact.html">contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+            </ul>
+        </nav>
+        <main id="main_gallery">
+            <div class="upper_gallery">
+                <img src="images/jelica.jpg" alt="Headshot of actor Jelena Bašić" class="responsive">
+                <img src="images/J1.jpg" alt="Picture of actor Jelena Bašić" class="middle_img responsive">
+                <img src="images/Jele.jpg" alt="Picture of actor Jelena Bašić from film TV Faustus">
+            </div>
+            <div class="lower_gallery">
+                <img src="images/JF1.png" alt="Picture of actor Jelena Bašić from film TV Faustus">
+                <img src="images/JSOG.jpg" alt="Picture of actor Jelena Bašić from film Spirit of God">
+                <img src="images/JS.png" alt="Picture of actor Jelena Bašić from film Sabina K.">
+                <img src="images/JL1.png" alt="Picture of actor Jelena Bašić from Lass o' Pairts">
+                <img src="images/JF2.png" alt="Picture of actor Jelena Bašić from film TV Faustus">
+                <img src="images/jele-proba.jpg" alt="Picture of actor Jelena Bašić during rehearsal of Bambiland">
+            </div>
+        </main>
+        <footer class="gallery_footer">
+            <ul>    
+                <li><a href="https://www.instagram.com/jelenabasic33/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/jelena.basic.522" target="_blank">Facebook</a></li>
+                <li><a href="https://www.mandy.com/talent/grid/?actor=7410786" target="_blank">Mandy</a></li>
+                <li><a href="#" target="_blank">Backstage</a></li>
+            </ul>
+        </footer>
+    </div>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="actor, actress, performer, drama teacher, Scotland, United Kingdom, drama classes, physical theatre ">
+    <meta name="author" content="Marina Bobetic">
+    <title>Jelena Bašić actress performer educator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="wrapper">
+        <nav>
+            <ul class="sidebar">
+                <li class="sidebar-button" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="work.html">work</a></li>
+                <li><a href="reel.html">reel</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="classes.html">classes</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li>
+                <li class="hideOnMobile"><a href="about.html">about</a></li>
+                <li class="hideOnMobile"><a href="work.html">work</a></li>
+                <li class="hideOnMobile"><a href="reel.html">reel</a></li>
+                <li class="hideOnMobile"><a href="gallery.html">gallery</a></li>
+                <li class="hideOnMobile"><a href="classes.html" class="active_link">classes</a></li>
+                <li class="hideOnMobile"><a href="contact.html">contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+            </ul>
+        </nav>
+        <div class="classes">
+            <div class="upper-left">
+                <img src="images/classes2a.jpg" alt="Image of Jelena teaching drama class to two students">
+            </div>
+            <div class="upper-right">
+                <h2>Masquerade Theater classes</h2>
+                <p>Masquerade Theater classes offer a space to explore acting, theatre and character development.</p>
+                <br><br>
+                <p class="fadeIn">BUT THEY ARE MUCH MORE THAN JUST ACTING CLASSES.</p>
+            </div>
+            <div class="lower-left">
+                <p>Through games, physical theatre exercises and playful somatic movement, we explore our personal stories, connect with our bodies and emotions to build confidence and to develop a powerful stage presence that can support us in many different contexts - as actors, musicians or public speakers, teachers/facilitators, or simply to get to know ourselves a little better. <br><br>
+                <a href="contact.html">Click here</a> to contact.</p>
+            </div>
+            <div class="lower-right">
+                <img src="images/classes1.jpg" alt="Image of six students with Jelena during drama class">
+            </div>
+            <footer>
+                <ul>    
+                    <li><a href="https://www.instagram.com/jelenabasic33/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/jelena.basic.522" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.mandy.com/talent/grid/?actor=7410786" target="_blank">Mandy</a></li>
+                    <li><a href="#" target="_blank">Backstage</a></li>
+                </ul>
+        </footer>
+        </div>
+        
+    </div>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+</body>
+</html>
